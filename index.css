@@ -1,0 +1,220 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {  min-width: 644px; }
+
+/* GreaterGrid */
+
+/* .greaterGrid {
+    width: 650px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+/* Header */
+
+.headerFlex {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid rgb(100, 100, 100); */
+    height: 70px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMiddle {
+    font-size: 15px;
+    padding: 15px 12px;
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
+/* Header Left */
+
+.homeButton {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.homeButton:hover {
+    cursor: pointer;
+}
+
+/* Header Middle */
+
+.searchGrid {
+    display: grid;
+    grid-template-columns: 1fr 60px 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.searchSearch {
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin-top: -1px;
+    vertical-align: bottom;
+}
+
+.searchSearchButton {
+    width: 40px;
+    height: 51px;
+    border: none;
+    /* background-color: gray; */
+    cursor: pointer;
+    /* vertical-align: bottom; */
+    margin-left: 0px;
+    margin-top: -0px;
+    border: 1px solid gray;
+}
+
+.searchSearchButton:hover {
+    background-color: lightgray;
+}
+
+.searchMicrophone {
+    width: 24px;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+
+.searchMicrophone:hover {
+    cursor:pointer;
+}
+
+
+/* Header right */
+
+.yourPFP {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.yourPFPHam {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-left: -7px;
+    margin-top: -1px;
+}
+
+.yourPFPButton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+/* Profiles */
+
+/* .bigGrid {
+display: grid;
+grid-template-columns: 200px 200px 200px;
+column-gap: 20px;
+} */
+
+.bigGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+
+.profile {
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.animalPhoto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.mutualFriendsRow {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.animalPFP {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-left: -6.8px;
+    margin-top: -1.77px;
+}
+
+
+.pfpButton {
+    width: 28px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    border-radius: 50%;
+    transition: transform 0.7s ease-in-out;
+}
+
+.pfpButton:hover {
+    transform: rotate(360deg);
+}
+
+
+.mutualFriends {
+    color: rgb(100, 100, 100);
+}
+
+
+.addFriend {
+    background-color: rgb(24, 119, 242);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    margin-left:  8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.addFriend:hover {
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3)
+}
