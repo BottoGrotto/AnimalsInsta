@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Styles/index.css">
     <title>Animal Facebook</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="headerFlex">
             <!-- Header Left -->
             <div style="width: 200px;">
-                <img class="homeButton" src="UI-Photos/home.png" alt="homeIcon">
+                <img class="homeButton" onclick="window.location.href='index.html'" src="UI-Photos/home.png" alt="homeIcon">
             </div>
             <!-- Header Middle -->
             <div class="searchGrid" style="flex: 1;">
@@ -44,7 +44,11 @@
                 <img class="animalPhoto" src="animalPhotos/cat.jpg" alt="cat1-jpg">
                 <p class="name">Oliver</p>
                 <div class="mutualFriendsRow">
-                    <button class="pfpButton"><img class="animalPFP" src="animalPhotos/cat.jpg" alt="catpfp"></button>
+                    <a href="Animal-Profiles/oliver.html">
+                        <button class="pfpButton">
+                            <img class="animalPFP" src="animalPhotos/cat.jpg" alt="catpfp">
+                        </button>
+                    </a>
                     <p class="mutualFriends">3 Mutual Friends</p>
                 </div>
                 <button class="addFriend">Add Friend</button>
@@ -54,7 +58,11 @@
                 <img class="animalPhoto" src="animalPhotos/cat2.jpg" alt="cat2-jpg">
                 <p class="name">Dug</p>
                 <div class="mutualFriendsRow">
-                    <button class="pfpButton"><img class="animalPFP" src="animalPhotos/cat2.jpg" alt="catpfp"></button>
+                    <a href="Animal-Profiles/dug.html">
+                        <button class="pfpButton">
+                            <img class="animalPFP" src="animalPhotos/cat2.jpg" alt="catpfp">
+                        </button>
+                    </a>
                     <p class="mutualFriends">6 Mutual Friends</p>
                 </div>
                 <button class="addFriend">Add Friend</button>
@@ -64,16 +72,25 @@
                 <img class="animalPhoto" src="animalPhotos/dog.jpg" alt="dog-jpg">
                 <p class="name">Princess Monty</p>
                 <div class="mutualFriendsRow">
-                    <button class="pfpButton"><img class="animalPFP" src="animalPhotos/dog.jpg" alt="dogpfp"></button>
+                    <a href="Animal-Profiles/princess-monty.html">
+                        <button class="pfpButton">
+                            <img class="animalPFP" src="animalPhotos/dog.jpg" alt="dogpfp">
+                        </button>
+                    </a>
                     <p class="mutualFriends">4 Mutual Friends</p>
                 </div>
                 <button class="addFriend">Add Friend</button>
             </div>
+            <!-- Mr. Steve -->
             <div class="profile">
                 <img class="animalPhoto" src="animalPhotos/monkey.webp" alt="monkey-webp">
                 <p class="name">Mr. Steve</p>
                 <div class="mutualFriendsRow">
-                    <button class="pfpButton"><img class="animalPFP" src="animalPhotos/monkey.webp" alt="monkeypfp"></button>
+                    <a href="Animal-Profiles/mr-steve.html">
+                        <button class="pfpButton">
+                            <img class="animalPFP" src="animalPhotos/monkey.webp" alt="monkeypfp">
+                        </button>
+                    </a>
                     <p class="mutualFriends">2 Mutual Friends</p>
                 </div>
                 <button class="addFriend">Add Friend</button>

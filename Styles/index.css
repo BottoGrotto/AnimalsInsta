@@ -1,4 +1,4 @@
-p {
+* {
     font-family: Arial;
     margin-top: 0;
     margin-bottom: 0;
@@ -108,7 +108,7 @@ body {  min-width: 644px; }
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .yourPFPHam {
@@ -209,6 +209,7 @@ column-gap: 20px;
     padding: 10px 20px;
     color: white;
     border-radius: 2px;
+    margin-top: -5px;
     margin-left:  8px;
     margin-bottom: 8px;
     cursor: pointer;
